@@ -1,0 +1,517 @@
+#$ TITLE: Street League Motor Output Limit Settings
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: Motor, output limit, Street League, StreetLeague, Street, League, LeadFingers, Throttle cap
+#$ AUTHOR: LeadFingers
+#$ PARSER: MARKED
+#$ DESCRIPTION: Street League Spec Drone Racing Anti-NSB Presets
+#$ DESCRIPTION: Use this tool to help make your quad Street Legal
+#$ DESCRIPTION: 
+#$ DESCRIPTION: The pre checked boxes will set your throttle limit to 75% SCALED on all 6 profiles and leave your quad on profile 1 and set your Throttle Boost settings to default
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Choose your motor output limit from the list
+#$ DISCUSSION: [Pull Request](https://github.com/betaflight/firmware-presets/pull/256)
+#$ FORCE_OPTIONS_REVIEW: True
+
+#$ OPTION_GROUP BEGIN: Universal anti-NSB settings
+
+#$ OPTION BEGIN (CHECKED): Set my Street League Spec throttle limit
+rateprofile 0
+set throttle_limit_type = scale
+set throttle_limit_percent = 75
+rateprofile 1
+set throttle_limit_type = scale
+set throttle_limit_percent = 75
+rateprofile 2
+set throttle_limit_type = scale
+set throttle_limit_percent = 75
+rateprofile 3
+set throttle_limit_type = scale
+set throttle_limit_percent = 75
+rateprofile 4
+set throttle_limit_type = scale
+set throttle_limit_percent = 75
+rateprofile 5
+set throttle_limit_type = scale
+set throttle_limit_percent = 75
+rateprofile 0 
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Set my throttle boost settings to default
+profile 0
+set throttle_boost = 5
+set throttle_boost_cutoff = 15
+profile 1
+set throttle_boost = 5
+set throttle_boost_cutoff = 15
+profile 2
+set throttle_boost = 5
+set throttle_boost_cutoff = 15
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: 100-90
+
+#$ OPTION BEGIN (UNCHECKED): 100
+profile 0
+set motor_output_limit = 100
+profile 1
+set motor_output_limit = 100
+profile 2
+set motor_output_limit = 100
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 99
+profile 0
+set motor_output_limit = 99
+profile 1
+set motor_output_limit = 99
+profile 2
+set motor_output_limit = 99
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 98
+profile 0
+set motor_output_limit = 98
+profile 1
+set motor_output_limit = 98
+profile 2
+set motor_output_limit = 98
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 97
+profile 0
+set motor_output_limit = 97
+profile 1
+set motor_output_limit = 97
+profile 2
+set motor_output_limit = 97
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 96
+profile 0
+set motor_output_limit = 96
+profile 1
+set motor_output_limit = 96
+profile 2
+set motor_output_limit = 96
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 95
+profile 0
+set motor_output_limit = 95
+profile 1
+set motor_output_limit = 95
+profile 2
+set motor_output_limit = 95
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 94
+profile 0
+set motor_output_limit = 94
+profile 1
+set motor_output_limit = 94
+profile 2
+set motor_output_limit = 94
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 93
+profile 0
+set motor_output_limit = 93
+profile 1
+set motor_output_limit = 93
+profile 2
+set motor_output_limit = 93
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 92
+profile 0
+set motor_output_limit = 92
+profile 1
+set motor_output_limit = 92
+profile 2
+set motor_output_limit = 92
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 91
+profile 0
+set motor_output_limit = 91
+profile 1
+set motor_output_limit = 91
+profile 2
+set motor_output_limit = 91
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 90
+profile 0
+set motor_output_limit = 90
+profile 1
+set motor_output_limit = 90
+profile 2
+set motor_output_limit = 90
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: 89-80
+
+#$ OPTION BEGIN (UNCHECKED): 89
+profile 0
+set motor_output_limit = 89
+profile 1
+set motor_output_limit = 89
+profile 2
+set motor_output_limit = 89
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 88
+profile 0
+set motor_output_limit = 88
+profile 1
+set motor_output_limit = 88
+profile 2
+set motor_output_limit = 88
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 87
+profile 0
+set motor_output_limit = 87
+profile 1
+set motor_output_limit = 87
+profile 2
+set motor_output_limit = 87
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 86
+profile 0
+set motor_output_limit = 86
+profile 1
+set motor_output_limit = 86
+profile 2
+set motor_output_limit = 86
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 85
+profile 0
+set motor_output_limit = 85
+profile 1
+set motor_output_limit = 85
+profile 2
+set motor_output_limit = 85
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 84
+profile 0
+set motor_output_limit = 84
+profile 1
+set motor_output_limit = 84
+profile 2
+set motor_output_limit = 84
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 83
+profile 0
+set motor_output_limit = 83
+profile 1
+set motor_output_limit = 83
+profile 2
+set motor_output_limit = 83
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 82
+profile 0
+set motor_output_limit = 82
+profile 1
+set motor_output_limit = 82
+profile 2
+set motor_output_limit = 82
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 81
+profile 0
+set motor_output_limit = 81
+profile 1
+set motor_output_limit = 81
+profile 2
+set motor_output_limit = 81
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 80
+profile 0
+set motor_output_limit = 80
+profile 1
+set motor_output_limit = 80
+profile 2
+set motor_output_limit = 80
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: 79-70
+
+#$ OPTION BEGIN (UNCHECKED): 79
+profile 0
+set motor_output_limit = 79
+profile 1
+set motor_output_limit = 79
+profile 2
+set motor_output_limit = 79
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 78
+profile 0
+set motor_output_limit = 78
+profile 1
+set motor_output_limit = 78
+profile 2
+set motor_output_limit = 78
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 77
+profile 0
+set motor_output_limit = 77
+profile 1
+set motor_output_limit = 77
+profile 2
+set motor_output_limit = 77
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 76
+profile 0
+set motor_output_limit = 76
+profile 1
+set motor_output_limit = 76
+profile 2
+set motor_output_limit = 76
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 75
+profile 0
+set motor_output_limit = 75
+profile 1
+set motor_output_limit = 75
+profile 2
+set motor_output_limit = 75
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 74
+profile 0
+set motor_output_limit = 74
+profile 1
+set motor_output_limit = 74
+profile 2
+set motor_output_limit = 74
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 73
+profile 0
+set motor_output_limit = 73
+profile 1
+set motor_output_limit = 73
+profile 2
+set motor_output_limit = 73
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 72
+profile 0
+set motor_output_limit = 72
+profile 1
+set motor_output_limit = 72
+profile 2
+set motor_output_limit = 72
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 71
+profile 0
+set motor_output_limit = 71
+profile 1
+set motor_output_limit = 71
+profile 2
+set motor_output_limit = 71
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 70
+profile 0
+set motor_output_limit = 70
+profile 1
+set motor_output_limit = 70
+profile 2
+set motor_output_limit = 70
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: 69-60
+
+#$ OPTION BEGIN (UNCHECKED): 69
+profile 0
+set motor_output_limit = 69
+profile 1
+set motor_output_limit = 69
+profile 2
+set motor_output_limit = 69
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 68
+profile 0
+set motor_output_limit = 68
+profile 1
+set motor_output_limit = 68
+profile 2
+set motor_output_limit = 68
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 67
+profile 0
+set motor_output_limit = 67
+profile 1
+set motor_output_limit = 67
+profile 2
+set motor_output_limit = 67
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 66
+profile 0
+set motor_output_limit = 66
+profile 1
+set motor_output_limit = 66
+profile 2
+set motor_output_limit = 66
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 65
+profile 0
+set motor_output_limit = 65
+profile 1
+set motor_output_limit = 65
+profile 2
+set motor_output_limit = 65
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 64
+profile 0
+set motor_output_limit = 64
+profile 1
+set motor_output_limit = 64
+profile 2
+set motor_output_limit = 64
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 63
+profile 0
+set motor_output_limit = 63
+profile 1
+set motor_output_limit = 63
+profile 2
+set motor_output_limit = 63
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 62
+profile 0
+set motor_output_limit = 62
+profile 1
+set motor_output_limit = 62
+profile 2
+set motor_output_limit = 62
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 61
+profile 0
+set motor_output_limit = 61
+profile 1
+set motor_output_limit = 61
+profile 2
+set motor_output_limit = 61
+profile 0
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): 60
+profile 0
+set motor_output_limit = 60
+profile 1
+set motor_output_limit = 60
+profile 2
+set motor_output_limit = 60
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
