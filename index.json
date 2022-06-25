@@ -168,6 +168,7 @@
       "Justice - Gary Kent",
       "Jye Smith",
       "LeadFingers",
+      "LeadFingers race director",
       "MinChan Kim",
       "mouseFPV",
       "MrAlucardDante",
@@ -1051,8 +1052,8 @@
     },
     {
       "fullPath": "presets/4.3/other/Street_League_race_director.txt",
-      "hash": "7682d9e96878bd766555d0c240b864549fd9587fe619d7dd8454879745492c9c",
-      "title": "AAA Street League race director",
+      "hash": "b3f0469ce8c42c5f7b27d26f81ab04608611252941b21fa8bd7a6e89fd7e716f",
+      "title": "Street League race director",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1069,7 +1070,7 @@
         "LeadFingers",
         "Throttle cap"
       ],
-      "author": "LeadFingers",
+      "author": "LeadFingers race director",
       "force_options_review": true,
       "priority": 0
     },
