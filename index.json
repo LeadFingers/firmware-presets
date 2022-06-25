@@ -864,30 +864,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/other/AAA_Street_League_race_director.txt",
-      "hash": "633a53ff59894ed84967b9030e781bd93cbe5359d8a401ffd4c8a12d437eed34",
-      "title": "Street League Motor Output Limit Settings",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "Motor",
-        "output limit",
-        "Street League",
-        "StreetLeague",
-        "Street",
-        "League",
-        "LeadFingers",
-        "Throttle cap"
-      ],
-      "author": "LeadFingers",
-      "force_options_review": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.3/other/blackbox_disable.txt",
       "hash": "71fc4b4cc44366fbbd91ad1aaf882cddd103fae91c4230988a5ebbb67b6bac5d",
       "title": "4.3 Blackbox disable settings",
@@ -1071,6 +1047,30 @@
         "stats"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/Street_League_race_director.txt",
+      "hash": "633a53ff59894ed84967b9030e781bd93cbe5359d8a401ffd4c8a12d437eed34",
+      "title": "Street League Motor Output Limit Settings",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Motor",
+        "output limit",
+        "Street League",
+        "StreetLeague",
+        "Street",
+        "League",
+        "LeadFingers",
+        "Throttle cap"
+      ],
+      "author": "LeadFingers",
+      "force_options_review": true,
       "priority": 0
     },
     {
