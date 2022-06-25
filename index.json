@@ -1051,8 +1051,8 @@
     },
     {
       "fullPath": "presets/4.3/other/Street_League_race_director.txt",
-      "hash": "633a53ff59894ed84967b9030e781bd93cbe5359d8a401ffd4c8a12d437eed34",
-      "title": "Street League Motor Output Limit Settings",
+      "hash": "7682d9e96878bd766555d0c240b864549fd9587fe619d7dd8454879745492c9c",
+      "title": "AAA Street League race director",
       "firmware_version": [
         "4.2",
         "4.3"
