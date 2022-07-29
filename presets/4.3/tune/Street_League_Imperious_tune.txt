@@ -1,0 +1,88 @@
+#$ TITLE: Street League Imperius tune
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: Street League, StreetLeague, Street, League, Imperious, PIDtoolbox, 7"
+#$ AUTHOR: LeadFingers
+
+#$ DESCRIPTION: Imperious tune for Street League quads
+#$ DESCRIPTION: ESC must be bi-directional Dshot ready
+#$ DESCRIPTION: This preset will reset your Feed Forward settings back to default. Reflash your RC link preset to fix.
+#$ DESCRIPTION: 
+#$ WARNING: **DO NOT** Flash this preset to a quad that is not Street League Spec
+#$ DISCUSSION: https://discord.gg/rqGfKBbYbP
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# -- Undo some default things --
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+set dshot_bidir = ON
+
+# -- Filter Settings --
+set gyro_lpf1_type = PT1
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_type = BIQUAD
+set gyro_lpf2_static_hz = 250
+set gyro_notch1_hz = 0
+set gyro_notch1_cutoff = 0
+set gyro_notch2_hz = 0
+set gyro_notch2_cutoff = 0
+set dyn_notch_count = 3
+set dyn_notch_q = 400
+set dyn_notch_min_hz = 110
+set dyn_notch_max_hz = 400
+set gyro_lpf1_dyn_min_hz = 100
+set gyro_lpf1_dyn_max_hz = 700
+set gyro_lpf1_dyn_expo = 5
+set simplified_gyro_filter = OFF
+set rpm_filter_harmonics = 1
+set rpm_filter_q = 500
+set rpm_filter_min_hz = 100
+set rpm_filter_fade_range_hz = 50
+set rpm_filter_lpf_hz = 150
+set dterm_lpf1_dyn_min_hz = 100
+set dterm_lpf1_dyn_max_hz = 350
+set dterm_lpf1_dyn_expo = 5
+set dterm_lpf1_type = PT1
+set dterm_lpf1_static_hz = 75
+set dterm_lpf2_type = PT1
+set dterm_lpf2_static_hz = 100
+set dterm_notch_hz = 0
+set dterm_notch_cutoff = 0
+set vbat_sag_compensation = 0
+
+# -- PID Settings --
+set p_pitch = 130
+set i_pitch = 90
+set d_pitch = 120
+set f_pitch = 170
+set p_roll = 90
+set i_roll = 85
+set d_roll = 90
+set f_roll = 150
+set p_yaw = 150
+set i_yaw = 90
+set d_yaw = 0
+set f_yaw = 150
+set d_min_roll = 0
+set d_min_pitch = 0
+set d_min_yaw = 0
+set d_max_gain = 37
+set d_max_advance = 20
+
+# -- spec settings --
+set throttle_boost = 5
+set throttle_boost_cutoff = 15
+
+#$ OPTION_GROUP BEGIN: Select Dshot 300 or 600
+
+#$ OPTION BEGIN (UNCHECKED): Dshot 300
+set motor_pwm_protocol = DSHOT300
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Dshot 600
+set motor_pwm_protocol = DSHOT600
+#$ OPTION END
+
+#$ OPTION_GROUP END

@@ -299,6 +299,7 @@
       "IllusionFpv",
       "immersion",
       "immersionRC",
+      "Imperious",
       "IRC",
       "IRC Tramp",
       "justice",
@@ -2484,6 +2485,27 @@
       ],
       "author": "Betaflight",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/tune/Street_League_Imperious_tune.txt",
+      "hash": "1c9908b2c3ea6d8e33591971579df8d5e2cec7afded30205136bbb41a7ef0dc9",
+      "title": "Street League Imperius tune",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Street League",
+        "StreetLeague",
+        "Street",
+        "League",
+        "Imperious",
+        "PIDtoolbox",
+        "7\""
+      ],
+      "author": "LeadFingers",
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/Street_League_LeadFingers.txt",
