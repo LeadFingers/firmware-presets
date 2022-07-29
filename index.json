@@ -167,6 +167,7 @@
       "filtering",
       "filters",
       "hot",
+      "Imperious",
       "LeadFingers",
       "League",
       "leds",
@@ -612,8 +613,29 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/tune/Street_League_Imperious_tune.txt",
+      "hash": "edd21e0befa00714e75768d739737d4f0097cb7f08a7b78b5efa778a4083f4db",
+      "title": "Street League Imperius tune",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Street League",
+        "StreetLeague",
+        "Street",
+        "League",
+        "Imperious",
+        "PIDtoolbox",
+        "7\""
+      ],
+      "author": "LeadFingers",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.3/tune/Street_League_LeadFingers.txt",
-      "hash": "d1cd79052eac6d34929fbe2c0ae607de97dc6bfdb4de0edff52b21be3460bc31",
+      "hash": "b2704596d2ef67619daca480935c7adac9475e3007763eab7490499737955a16",
       "title": "Street League LeadFingers PIDtoolbox tune",
       "firmware_version": [
         "4.3"
