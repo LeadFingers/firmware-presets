@@ -70,6 +70,10 @@ set d_min_pitch = 0
 set d_min_yaw = 0
 set d_max_gain = 37
 set d_max_advance = 20
+set iterm_relax_cutoff = 30
+set yaw_lowpass_hz = 0
+set simplified_pids_mode = OFF
+set simplified_dterm_filter = OFF
 
 # -- spec settings --
 set throttle_boost = 5
